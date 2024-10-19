@@ -158,10 +158,13 @@ h2 {
     font-size: 1rem;
 }
 
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+
 img {
-    scale: 100%;
+    scale: 70%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: auto;
 }
