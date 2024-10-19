@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: hsl(228, 100%, 41%);
+    background-color: hsl(228, 100%, 50%);
 }
 
 .logo {
@@ -117,7 +117,6 @@ h2 {
     display: grid;
     justify-self: auto;
     text-align: center;
-    padding-top: 7rem;
     padding-right: 3rem;
     padding-left: 3rem;
     padding-bottom: 2rem;
@@ -157,4 +156,11 @@ h2 {
     color: black;
     padding-bottom: 2px;
     font-size: 1rem;
+}
+
+img {
+    scale: 70%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
