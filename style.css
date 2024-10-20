@@ -33,7 +33,7 @@ header a {
     text-decoration: none;
     color: #303030;
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 h2 {
@@ -88,7 +88,7 @@ h2 {
     text-decoration: none;
     color: black;
     padding-bottom: 2px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .back-center {
@@ -126,7 +126,7 @@ h2 {
     padding-right: 3rem;
     padding-left: 3rem;
     padding-bottom: 2rem;
-    font-size: large;
+    font-size: 1rem;
     color: white;
 }
 
@@ -161,7 +161,7 @@ h2 {
     text-decoration: none;
     color: black;
     padding-bottom: 2px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .img-center {
