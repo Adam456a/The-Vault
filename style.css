@@ -1,8 +1,14 @@
+@font-face {
+    font-family: CustomFont;
+    src: url(HomeVideo-Regular.ttf);
+}
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'CustomFont';
 }
 
 body {
@@ -10,7 +16,7 @@ body {
 }
 
 .logo {
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 header {
@@ -27,7 +33,7 @@ header a {
     text-decoration: none;
     color: #303030;
     padding: 10px;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 h2 {
@@ -82,7 +88,7 @@ h2 {
     text-decoration: none;
     color: black;
     padding-bottom: 2px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .back-center {
@@ -155,7 +161,7 @@ h2 {
     text-decoration: none;
     color: black;
     padding-bottom: 2px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .img-center {
