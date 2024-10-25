@@ -55,7 +55,7 @@ h2 {
     padding: 10px;
     max-width: 400px;
     border-radius: 15px;
-    border: 6px solid #000000;
+    border: 6px solid #0a99ffcf;
 }
 
 .center-roms {
@@ -73,11 +73,11 @@ h2 {
 .roms {
     border-radius: 15px;
     display: inline-block;
-    border: 6px solid;
+    border: 6px solid #0a99ffcf;
     max-width: 90%;
     text-align: left;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     list-style-position: inside;
     text-wrap: nowrap;
     overflow-y: auto;
@@ -100,7 +100,7 @@ h2 {
 .back {
     border-radius: 15px;
     display: inline-block;
-    border: 6px solid;
+    border: 6px solid #0a99ffcf;
     max-width: 90%;
     padding: 0.5rem 0.7rem;
     background-color: #fff;
@@ -145,7 +145,7 @@ h2 {
 .info {
     border-radius: 15px;
     display: inline-block;
-    border: 6px solid;
+    border: 6px solid #0a99ffcf;
     max-width: 90%;
     text-align: left;
     padding: 10px 20px;
