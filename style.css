@@ -38,8 +38,15 @@ header a {
 
 h2 {
     text-align: center;
-    padding-top: 17vh;
+    padding-top: 4rem;
     color: #fff;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+    user-select: none;
 }
 
 .search-bar {
@@ -63,6 +70,14 @@ h2 {
     justify-content: center;
     align-items: center;
     padding-bottom: 2rem;
+}
+
+.ccenter-roms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .center-roms p {
@@ -164,15 +179,25 @@ h2 {
 }
 
 .img-center {
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 img {
-    width: 50%;
-    max-width: 300px;
+    width: 35%;
     height: auto;
-    display: block; 
+    display: block;
 }
 
+.zoomable {
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+}
+
+.zoomed {
+    transform: scale(1.8); 
+    z-index: 10; 
+    position: relative;
+}
