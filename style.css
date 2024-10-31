@@ -22,18 +22,26 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #0a99ffcf;
     color: #303030;
     width: 100%;
     user-select: none;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
 }
 
 header a {
     text-decoration: none;
     color: #303030;
-    padding: 10px;
-    font-size: 1rem;
+    font-size: 1.4rem;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #1d1dff;
+    font-size: 1.4rem;
+    transition: 1s;
 }
 
 h2 {
@@ -103,6 +111,14 @@ h3 {
     color: black;
     padding-bottom: 2px;
     font-size: 1rem;
+}
+
+.roms a:hover {
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+    padding-bottom: 2px;
+    font-size: 1rem;
+    transform: 1s ease;
 }
 
 .back-center {
@@ -189,15 +205,4 @@ img {
     width: 35%;
     height: auto;
     display: block;
-}
-
-.zoomable {
-    transition: transform 0.3s ease; 
-    cursor: pointer;
-}
-
-.zoomed {
-    transform: scale(1.8); 
-    z-index: 10; 
-    position: relative;
 }
